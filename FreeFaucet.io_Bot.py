@@ -16,7 +16,8 @@ from random import randrange
 import os
 
 driver_path = "chromedriver.exe"
-brave_path = "C:/Program Files/Google/Chrome/Application/chrome.exe"
+#brave_path = "C:/Program Files/Google/Chrome/Application/chrome.exe"
+brave_path = "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 credentials = "creds.txt"
